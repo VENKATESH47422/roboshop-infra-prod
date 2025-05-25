@@ -1,3 +1,3 @@
 data "aws_route53_zone" "venky" {
-  name         = "venky.online"
+  name         = "venky.shop"
 }

@@ -14,5 +14,5 @@ variable "environment" {
 }
 
 variable "zone_name" {
-  default = "venky.online"
+  default = "venky.shop"
 }

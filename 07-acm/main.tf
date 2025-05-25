@@ -1,5 +1,5 @@
 resource "aws_acm_certificate" "venky" {
-  domain_name       = "*.venky.online"
+  domain_name       = "*.venky.shop"
   validation_method = "DNS"
 
   tags = merge(
