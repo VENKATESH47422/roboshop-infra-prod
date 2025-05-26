@@ -106,7 +106,7 @@ resource "aws_launch_template" "web" {
 
 resource "aws_autoscaling_group" "web" {
   name                      = "${local.name}-${var.tags.Component}"
-  max_size                  = 10
+  max_size                  = 2
   min_size                  = 1
   health_check_grace_period = 60
   health_check_type         = "ELB"
